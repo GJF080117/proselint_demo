@@ -1,0 +1,9 @@
+name: 'Proselint Check'
+description: 'Run proselint on all markdown files'
+runs:
+  using: 'composite'
+  steps:
+    - run: pip install proselint
+      shell: bash
+    - run: proselint $(find . -name '*.md' -type f)
+      shell: bash
