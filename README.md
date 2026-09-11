@@ -1,4 +1,4 @@
 # Proselint Demo
 
-This is a very important project.
-We utilize proselint to check our prose.
+This is an important project.
+We use proselint to check our prose.
