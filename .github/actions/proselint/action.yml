@@ -5,5 +5,5 @@ runs:
   steps:
     - run: pip install proselint
       shell: bash
-    - run: proselint $(find . -name '*.md' -type f)
+    - run: proselint check $(find . -name '*.md' -type f)
       shell: bash
