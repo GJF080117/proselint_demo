@@ -1,0 +1,10 @@
+name: proselint
+
+on: [push, pull_request]
+
+jobs:
+  prose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/proselint
